@@ -6,6 +6,8 @@ const messageLines = [
   "Loyal rah ke bhi baar baar cheat karne ka ilzaam lagta rahe",
   "Khud ki naukri ki kasam khani pade taaki saamne wala meri baat samjhe without an agenda",
   "Main ye sab ab sahan nahi kar sakta hoon",
+  "i am finally throwing the toxic part of my life today ",
+  "goodbye"
 ];
 
 export default function App() {
