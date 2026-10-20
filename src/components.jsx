@@ -8,7 +8,7 @@ export function Pet({ who, data, say }) {
     <div className={`pet ${who}`}>
       <div className="pet-pic">
         {bad || who === "chiku" ? <span className="pet-emoji">🐩</span> : <img src={`${who}.jpg`} alt={who} onError={() => setBad(true)} />}
-        {who === "chiku" && !bad && <img className="chiku-img" src="chiku.jpg" alt="chiku" onError={(e) => (e.target.style.display = "none")} />}
+        {who === "chiku" && !bad && <img className="chiku-img" src="chiku.jpeg" alt="chiku" onError={(e) => (e.target.style.display = "none")} />}
         {item && <span className="worn">{item.icon}</span>}
       </div>
       <b>{who === "oreo" ? "Oreo" : "Chiku"}</b>
